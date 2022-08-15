@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
+    <div class="myportfolio">
     <span class="flex-container">
       <span class="flex1">
         <span class="name">Mary Bhavana Gollapalli</span>
-        <button class="navbutton">Home</button>
-        <button class="navbutton">About</button>
-        <button class="navbutton">Portifolio</button>
-        <button class="navbutton">Resume</button>
-        <button class="navbutton">Contact</button>
+        <a class="aa" href="#Home"><button class="navbutton">Home</button></a>
+        <a class="aa" href="#aboutA"><button class="navbutton">About</button></a>
+        <a  class="aa"href="#Portfolio"><button class="navbutton">Portifolio</button></a>
+        <a class="aa" href="#Resume"><button class="navbutton">Resume</button></a>
+        <a class="aa" href="#Contact"><button class="navbutton">Contact</button></a>
       </span>
     </span>
-    <div class="middle">
+    <a id="Home"><div class="middle"></a>
       <span class="hi">Hi, I am Mary Bhavana Gollapalli</span>
       <span class="dev">A Front-end Developer</span>
       <span><img class="middleimg" src="./middleimg.webp" /></span>
       <p class="get">Get ready to turn ideas into reality</p>
       <button class="hire">Hire Me</button>
-      <button class="resume">Get Resume</button>
+      <a class="aa" href="#Resume"><button class="resume">Get Resume</button></a>
       <svg
         class="svg"
         xmlns="http://www.w3.org/2000/svg"
@@ -36,9 +37,9 @@
           d="M0,128L60,117.3C120,107,240,85,360,112C480,139,600,213,720,234.7C840,256,960,224,1080,213.3C1200,203,1320,213,1380,218.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
       </svg>
-    </div>
+    </div><br><br>
     <div class="card">
-      <p class="msg1">About Me</p>
+      <a id="aboutA"><p class="msg1">About Me</p></a>
       <p class="msg">
         <img class="cardimg" src="./cardimg.webp" />
         I'm a web designer and frontend developer who is interested in all
@@ -59,18 +60,18 @@
       </div>
     </div>
     <div class="shots">
-      <h2>My Portfolio</h2>
+      <a id="Portfolio"><h2 class="myheading">My Portfolio</h2></a>
       <div class="flex-containershots">
-      <div class="grid1"><img class="porti" src="./img1.png" style="width:300px"></div>
-      <div class="grid2"><img class="porti"src="./img2.png"></div>
-      <div class="grid3"><img class="porti"src="./img3.png" style="width:300px"></div>
-      <div class="grid4"><img class="porti"src="./img4.png" style="width:300px"></div>
-      <div class="grid5"><img class="porti"src="./img5.png"></div>
-      <div class="grid6"><img class="porti"src="./img6.png" style="width:300px"></div>
+      <div class="grid1"><a href="https://marybhavana.github.io/project/1stproject.html" target="_blank"><img class="porti" src="./htmlpage.png" style="width:300px"></a></div>
+      <div class="grid2"><a href="https://marybhavana.github.io/project2/index.html" target="_blank"><img class="porti"src="./todoapp.png"></a></div>
+      <div class="grid3"><a href="https://marybhavana.github.io/todoapp/" target="_blank"><img class="porti"src="./todoappjs.png" style="width:300px"></a></div>
+      <div class="grid4"><a href="https://marybhavana.github.io/project3/" target="_blank"><img class="porti"src="./todomobile.png" style="width:300px"></a></div>
+      <div class="grid5"><a href="https://marybhavana.github.io/digitalclockpro/" target="_blank"><img class="porti"src="./digitalclock.png"></a></div>
+      <div class="grid6"><a href="https://ornate-praline-dbaea5.netlify.app/" target="_blank"><img class="porti"src="./blogapp.png" style="width:300px"></a></div>
       </div><br><br>
     </div>
    <div class="work">
-    <span class="res">Resume</span>
+    <a id="Resume"><span class="res">Resume</span></a>
     <p><span class="work">Education</span><hr class="whr">
       <div class="circle1"></div>
       <div class="circle2"></div>
@@ -78,11 +79,13 @@
       <hr class="hr1">
       <hr class="hr2">
       <span class="edu">JNTUK University College Of Engineering,</span>
-      <span class="edu">Vizanagaram <button class="btech">2017-2021</button></span>
-      <span class="edu1">Electronics & Coomuncation Engineering</span>
-      <span class="clg">Narayana Junior College,Vijayavada<button class="clgb">2015-2017</button></span>
+      <span class="edu">Vizanagaram <button class="btech">2017-2021</button></span><br>
+      <span class="edu1">Electronics & Comunication Engineering</span>
+      <span class="clg">Narayana Junior College,Vijayavada</span>
+      <button class="clgb">2015-2017</button>
       <span class="mpc">MPC(Inter)</span>
-      <span class="tenth">Jawahar Navodaya Vidyalaya<button class="tenthb">2015</button></span>
+      <span class="tenth">Jawahar Navodaya Vidyalaya</span>
+      <button class="tenthb">2015</button>
       <span class="ssc">SSC</span>
     </p>
     <span><img class="reimg" src="./middleimg.webp"></span>
@@ -99,23 +102,23 @@
        <div class="saycard">
         <div class="flex-container3">
           <div class="item1"><p><img src="./pimg1.png"><br>
-          <h3>Sony</h3><p>Lorem, ipsum dolor<br>
-            sit amet consectetur <br>
+          <h3>Sony</h3><p>Lorem, ipsum dolor sit<br>
+            sit amet consectetur slit <br>
             elit. Veritatis, iste?<br>
-            elit. Veritatis, iste?<br>
+            elit. Veritatis, iste?
             sit amet consectetur<br>
             Lorem, ipsum dolor<br></p></p></div>
-          <div class="item1"><p><img src="./pimg1.png"><br>
+          <div class="item2"><p><img src="./pimg1.png"><br>
           <h3>Supriya</h3><p>Lorem, ipsum dolor<br>
-            sit amet consectetur <br>
+            sit amet consectetur
             elit. Veritatis, iste?<br>
             sit amet consectetur<br>
             Lorem, ipsum dolor<br>
             </br></p></p></div>
-          <div class="item1"><p><img src="./pimg1.png"><br>
+          <div class="item3"><p><img src="./pimg1.png"><br>
           <h3>Fasna</h3><p>Lorem, ipsum dolor<br>
             sit amet consectetur <br>
-            elit. Veritatis, iste?<br>
+            elit. Veritatis, iste?
             elit. Veritatis, iste?<br>
             sit amet consectetur<br>
             Lorem, ipsum dolor<br></p></p></div>
@@ -124,7 +127,7 @@
           </div>
        </div>
      </div><br><br><br><br>
-     <span class="chead">Contact Me</span>
+     <a id="Contact"><span class="chead">Contact Me</span></a>
      <div class="flex-container4">
       <div class="fitem1">
       <div class="contact">
@@ -161,5 +164,6 @@
       </div>
       <div class="rights"><p class="mary">©2021 MaryBhavana.All rights are reserved</p></div>
       </div>
+    </div>
   </body>
 </html>
